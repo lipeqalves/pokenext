@@ -1,0 +1,39 @@
+.about {
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.about p {
+
+  max-width: 500px;
+  margin: 0 auto 1.5em;
+  line-height: 1.4;
+}
+.contato{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contato li{
+    list-style: none;
+}
+
+.contato__item {
+   color: #111;
+    text-decoration: none;
+
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.contato__item:hover{
+   border-color: #333;
+}
