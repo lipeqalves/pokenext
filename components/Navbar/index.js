@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-import styles from "./navbar.module.css"
+import styles from "./navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
@@ -14,12 +13,17 @@ const Navbar = () => {
         />
         <h1>PokeNext</h1>
       </div>
+
       <ul className={styles.link}>
         <li>
-          <Link  className={styles.link_items}  href={"/"}>Home</Link>
+          <Link className={styles.link_items} href={"/"}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link  className={styles.link_items} href={"/about"}>Sobre</Link>
+          <Link className={styles.link_items} href={"/about"}>
+            Sobre
+          </Link>
         </li>
       </ul>
     </nav>
