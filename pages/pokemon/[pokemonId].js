@@ -57,7 +57,7 @@ const Pokemon = ({ pokemon }) => {
           {pokemon.types.map((item, index) => (
             <span
               className={`${styles.type} ${styles["type_" + item.type.name]}`}
-              key={index}
+              key={item.type.name}
             >
               {item.type.name}
             </span>

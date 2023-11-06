@@ -34,7 +34,7 @@ const Home = ({ pokemons }) => {
 
   return (
     <>
-      <button onClick={btn}>More Pokemon</button>
+      {/* <button onClick=''>More Pokemon</button> */}
       <div className={styles.container}>
         <div className={styles.title_container}>
           <h1 className={styles.title}>
